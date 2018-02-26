@@ -18,9 +18,7 @@ Any potential use case requires the following conditions to be true.
 The setup of EC as such is a simple activity.
 A typical EC Setup involves the creation of an EC-Service, an EC agent configured to work in the Server, Client and Gateway modes and the instances of the end application.
 
-![alt text][simple_diagram]
-
-[simple_diagram]: "https://github.com/maan226/draw/blob/master/general_explanation.png" 
+![alt text] ("https://github.com/maan226/draw/blob/master/general_explanation.png")
 
 ### Note
 The bearer token is fetched, first thing, upon startup of the EC Server and Client agents. In reality it is the Service API that checks the validity of the token and not the Gateway itself. 
@@ -28,13 +26,11 @@ While the EC Client uses the Gateway to pass the token to the Service API, the E
 
 ### An Example Setup.
 
-![alt text][setup_diagram]
-
-[setup_diagram]: "https://github.com/maan226/draw/blob/master/EC-Setup_gen.png" 
+![alt text] ("https://github.com/maan226/draw/blob/master/EC-Setup_gen.png") 
 
 The above figure explain the general setup procedure of [EC setup] in a sequential fashion.
 
-[EC setup]: https://github.com/maan226/draw/blob/master/ec_setup.md
+[EC setup] (https://github.com/maan226/draw/blob/master/ec_setup.md)
 
 ##### Note
 * The EC Service, Gateway and the Load Balancer reside on CloudFoundry
