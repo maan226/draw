@@ -108,7 +108,7 @@ Save the gateway url temporarily for the app you just pushed
      cf env pwof-021318-server
 ```
 Update the contents in "pwof-021318-server_boundWith_ ec-maanasaa-selfDemo1.json" with the VCAP for postgres instance too.
-### push server to predix envt
+### Push Server to Predix envt
 #### Steps 5-7
 1.Open 
 > ec.sh
