@@ -30,7 +30,7 @@ While the EC Client uses the Gateway to pass the token to the Service API, the E
 
 The above figure explain the general setup procedure of [EC setup] in a sequential fashion.
 
-[EC setup]: (https://github.com/maan226/draw/blob/master/ec_setup_steps.md)
+[EC setup]: https://github.com/maan226/draw/blob/master/ec_setup_steps.md
 
 ##### Note
 * The EC Service, Gateway and the Load Balancer reside on CloudFoundry
